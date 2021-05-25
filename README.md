@@ -24,7 +24,8 @@ HTTPs:
 ```
 https://github.com/Nekenhei/ArduinoWeb.git
 ```
-Abrir Index.html
+
+Enel siguiente [Documento](https://github.com/Nekenhei/ArduinoWeb/blob/main/Proyecto%20Final%20Electr%C3%B3nica%202.docx) encuentran el paso a paso y el video explicativo 
 
 ## Notas:
 

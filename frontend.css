@@ -1,0 +1,9 @@
+#center{
+    padding: 20px;
+    background-color: 88cbf1;
+    border-radius: 10px 30px;
+
+    -webkit-box-shadow: 5px 5px 5px 3px rgba(136,241,236,0.6);
+    -moz-box-shadow: 5px 5px 5px 3px rgba(136,241,236,0.6);
+    box-shadow: 5px 5px 5px 3px rgba(136,241,236,0.6);
+}

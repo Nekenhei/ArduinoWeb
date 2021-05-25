@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Arduino</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="backend.js"></script>
+    <link rel="stylesheet" type="text/css" href="frontend.css">
+    <meta charset="UTF-8">
+</head>
+
+<body onload="onLoad()">
+    <div class="container">
+        <div id="top" class="row">
+            <h1>WebControlled Servo</h1>
+            <br>
+
+        </div>
+        <hr>
+        <div id="body">
+            <div class="row" id="main">
+                <div id="Left" class="col-3">
+
+                </div>
+                <div id="center" class="col-6">
+                    <p>
+                        <strong>
+                            <span> Status: </span>
+                        </strong>
+                        <span id="statusTxT"></span>
+                        <br>
+                        <strong>
+                            <span>API Key: </span>
+                        </strong>
+                        <span id="apiTxt"></span>
+                        <br>
+                        <strong>
+                            <span>Led On Pin: </span>
+                        </strong>
+                        <span id="onTxt"></span>
+                        <br>
+                        <strong>
+                            <span>Led Off Pin: </span>
+                        </strong>
+                        <span id="offTxt"></span>
+                        <br>
+                        <strong>
+                            <span>Servo Pin: </span>
+                        </strong>
+                        <span id="servoTxt"></span>
+                    </p>
+                    <button type="button" onclick="setup()" class="btn btn-info">Setup</button>
+                    <br>
+                    <br>
+                    <button type="button" onclick="prenderLedOn()" class="btn btn-success">Open</button>
+                    <button type="button" onclick="prenderLedOff()" class="btn btn-danger">Close</button>
+                    <br>
+                </div>
+                <div id="right" class="col-3">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
